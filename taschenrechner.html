@@ -1,0 +1,65 @@
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="css/taschenrechner.css">
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/taschenrechner.js"></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="flex">
+                
+                <div class="feld" id="">
+                    <p class="history" id="history"></p>
+                    <p class="output" id="output"></p>
+                </div>
+            </div>
+            <hr>
+        <div class="input">
+            <div>
+                <input class="w-operator hidden" type="button" value="|x|" id="abs">
+                <input class="operator" type="button" value="C" id="restart">
+                <input class="remove" type="button" value="CE" id="remove">
+                <input class="operator" type="button" value="OFF" id="off">
+                <input class="operator" type="button" value="ON" id="on">
+            </div>
+            <div class="hidden visa">
+                <input class="w-operator" type="button" value="x^y" id="power">
+                <input class="operator" type="button" value="(" id="(">
+                <input class="operator" type="button" value=")" id=")">
+                <input class="w-operator" type="button" value="sqrt" id="sqrt">
+                <input class="w-operator" type="button" value="exp" id="exp">
+            </div>
+            <div class="">
+                <input class="w-operator hidden" type="button" value="1/x" id="1/x">
+                <input class="num" type="button" value="7" id="num">
+                <input class="num" type="button" value="8" id="num">
+                <input class="num" type="button" value="9" id="num">
+                <input class="operator" type="button" value="+" id="+">
+            </div>
+            <div class="">
+                <input class="w-operator hidden" type="button" value="x^2" id="pow">
+                <input class="num" type="button" value="4" id="num">
+                <input class="num" type="button" value="5" id="num">
+                <input class="num" type="button" value="6" id="num">
+                <input class="operator" type="button" value="-" id="-">
+            </div>
+            <div class="">
+                <input class="w-operator hidden" type="button" value="log" id="log">
+                <input class="num" type="button" value="1" id="num">
+                <input class="num" type="button" value="2" id="num">
+                <input class="num" type="button" value="3" id="num">
+                <input class="operator" type="button" value="/" id="/">
+            </div>
+            <div class="">
+                <input class="w-operator hidden" type="button" value="%" id="">
+                <input class="num" type="button" value="0" id="num">
+                <input class="num" type="button" value="." id=".">
+                <input class="equal" type="button" value="=" id="equal">
+                <input class="operator" type="button" value="x" id="*">
+            </div>
+        </div>
+        </div>
+        
+        <p class="" id=""></p>
+    </body>
+</html>
